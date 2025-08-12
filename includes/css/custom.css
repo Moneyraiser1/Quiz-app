@@ -1,0 +1,101 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      font-size: 24px;
+      color: #f7941d;
+      font-weight: bold;
+    }
+    .nav-links a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #333;
+    }
+    .nav-buttons button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .sign-in {
+      background: transparent;
+      color: #f7941d;
+      border: 2px solid #f7941d;
+      border-radius: 4px;
+    }
+    .sign-up {
+      background-color: #f7941d;
+      color: #fff;
+      border-radius: 4px;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 50px;
+    }
+    .hero-text {
+      max-width: 50%;
+    }
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero-text span {
+      color: #f7941d;
+    }
+    .hero-text p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .hero-text .cta {
+      padding: 15px 30px;
+      background-color: #f7941d;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .hero-image img {
+      width: 450px;
+      max-width: 100%;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hero-text, .hero-image {
+        max-width: 100%;
+      }
+    }
+  
+     .text-orange {
+    color: #f7941d !important;
+  }
+  .btn-warning {
+    background-color: #f7941d;
+    border-color: #f7941d;
+  }
+  .btn-outline-warning {
+    border-color: #f7941d;
+    color: #f7941d;
+  }
+  .btn-outline-warning:hover {
+    background-color: #f7941d;
+    color: #fff;
+  }

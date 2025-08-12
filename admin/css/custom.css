@@ -1,0 +1,19 @@
+
+ .sidebar{
+      min-height: 100vh;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      left: 0;
+   }
+    .sidebar ul li{
+      padding: 15px;
+    }
+    .sidebar ul li a{
+      font-size: 15px;
+    }
+     .sidebar img{
+      width: 150px;
+      height: 80px;
+      border-radius: 50%;
+     }
